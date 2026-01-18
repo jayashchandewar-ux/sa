@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  color: #333;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #111;
+}
+
+.logo {
+  color: #ffb703;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.hero-btns {
+  margin-top: 15px;
+}
+
+.btn {
+  background: #ffb703;
+  color: #000;
+  padding: 12px 25px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #ffb703;
+  color: #ffb703;
+}
+
+/* Trust */
+.trust {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 25px;
+  background: #f8f8f8;
+  font-weight: bold;
+}
+
+/* Sections */
+.about, .menu, .cta {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.about p {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/* Menu Cards */
+.menu-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  width: 220px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffb703;
+}
+
+/* CTA */
+.cta {
+  background: #111;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+/* WhatsApp Floating */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  font-size: 24px;
+  padding: 12px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+}
